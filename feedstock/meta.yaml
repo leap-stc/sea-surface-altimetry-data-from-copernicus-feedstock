@@ -1,0 +1,27 @@
+title: "Sea-surface altimetry data from The Copernicus Marine Environment"
+description: >
+  SSALTO/DUACS Delayed-Time Level-4 sea surface height and derived variables measured by multi-satellite altimetry observations over Global Ocean.
+  This dataset was moved from the legacy pangeo catalog.
+recipes:
+
+provenance:
+  providers:
+    - name: "Copernicus Marine Service"
+      url: "https://marine.copernicus.eu/"
+      description: |
+        The Copernicus Programme is the European Union's Earth Observation Programme, looking at our planet and its environment for the ultimate benefit of all European and global citizens.
+      roles:
+        - producer
+        - licensor
+    - name: "LEAP"
+      description: "STC: Center for Learning the Earth with Artificial Intelligence and Physics"
+      roles:
+        - curator
+  license: proprietary
+  license_link:
+     title: Service Commitments and Licence
+     url: https://marine.copernicus.eu/user-corner/service-commitments-and-licence
+
+maintainers:
+  - name: "Julius Busecke"
+    github: jbusecke
